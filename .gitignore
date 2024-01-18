@@ -1,0 +1,37 @@
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore compiled binaries and executables
+*.exe
+*.out
+*.so
+*.dll
+
+# Ignore logs and temporary files
+*.log
+*.log.*
+*.tmp
+*.swp
+
+# Ignore user-specific files
+*.sublime-*
+*.vscode-*
+
+# Ignore environment-specific files
+.env
+.env.local
+.env.*.local
+
+# Ignore dependencies
+node_modules/
+vendor/
+
+# Ignore project-specific files
+.idea/
+.vscode/
+*.iml
+
+# Ignore user-specific files
+.sass-cache/
+.cache/
